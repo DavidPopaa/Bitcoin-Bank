@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+ 
+body{
+    background: url(./fundal-bitcoin-normal.png);
+    background-repeat: round;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    /* mega important pt ca backroundimage sa fie fullscreen */
+}
+
+.navbar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: white solid 4px;
+    height: 100px;
+}
+#text-sus-stanga-Bitcoin-Bank{  
+    font-size: 55px;
+    word-spacing: 9px;
+    letter-spacing: 4px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin-left: 150px;
+    
+}
+#about-us-buton{
+    text-decoration: none;
+    color: white;
+   margin-left: 700px;
+    font-size: 55px;
+    word-spacing: 9px;
+    letter-spacing: 4px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.div-mare-date{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    margin-top: 85px;
+    margin-left: 90px;
+    height: 400px;
+    width: 800px;
+    box-shadow: 20px 20px 20px #BCB8B1;
+    border: white solid 4px;
+    font-family: 'Roboto', sans-serif;
+}
+#name{
+    padding: 13px 10px;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    border-color: white;
+    border: white solid 4px;
+    border-radius: 50px;
+    height: 50px;
+    width: 290px;
+}
+::placeholder{
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+}
+#number{
+    color: white;
+    font-size: 20px;
+    padding: 13px 10px;
+    background-color: transparent;
+    border-color: white;
+    border: white solid 4px;
+    border-radius: 50px;
+    height: 50px;
+    width: 290px;
+}
+#buy-radio-text{
+    box-shadow: 10px 10px 10px gray;
+    font-size: 20px;
+    color: white;
+    padding: 13px 50px;
+    background-color: transparent;
+    border-color: white;
+    border: white solid 4px;
+    border-radius: 50px;
+    height: 50px;
+    width: 290px;
+}
+#sell-radio-text{
+    box-shadow: 10px 10px 10px gray;
+    font-size: 20px;
+    color: white;
+    padding: 13px 50px;
+    background-color: transparent;
+    border-color: white;
+    border: white solid 4px;
+    border-radius: 50px;
+    height: 50px;
+    width: 290px;
+}
+
+#currency{
+     color: white;
+    padding: 13px 50px;
+    background-color: transparent;
+    border-color: white;
+    border: white solid 4px;
+    border-radius: 50px; 
+    height: 50px;
+    width: 290px;
+}
+#submit-style{
+    font-size: 20px;
+    color: white;
+    padding: 13px 50px;
+    background-color: transparent;
+    border-color: white;
+    border: white solid 4px;
+    border-radius: 50px;
+    height: 50px;
+    width: 290px;
+
+}
+.name-div{
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 50px;
+    position: absolute;
+    left: 33%;
+    top: 20px;
+}
+.suma-div{
+     box-shadow: 10px 10px 10px gray;
+     border-radius: 50px;
+    position: absolute;
+    left: 33%;
+    top: 95px;
+}
+.currency-div{
+    box-shadow: 10px 10px 10px gray;
+    position: absolute;
+    border-radius: 50px;
+    left: 33%;
+    top: 170px;
+}
+.buy-div{
+    
+    position: absolute;
+    left: 10%;
+    border-radius: 50px;
+    top: 260px;
+}
+.sell-div{
+    position: absolute;
+    right: 10%;
+    border-radius: 50px;
+    top: 260px;
+}
+.submit-div{
+     box-shadow: 10px 10px 10px gray;
+    left: 33%;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 20px;
+}
+[type="radio"] {
+height: 18px;
+width: 18px;
+}
+
+
